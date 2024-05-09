@@ -1,7 +1,10 @@
 :root {
   --primary-white: #ffffff;
+  /* jero background, activities background */
   --primary-off-white: #FEFAF5;
+  /*site logo, hero slogan, recommendations title */
   --accent-blue: #335576;
+  /* currently active underline, get started button background */
   --highlight-orange: #DB7A4E;
 }
 
@@ -14,6 +17,7 @@ html,
 body {
   padding: 0;
   margin: 0;
+  background-color: var(--primary-white);
 }
 
 a {
@@ -30,10 +34,11 @@ a:hover {
 }
 
 .header {
+  margin: 0;
   width: 100%;
   position: sticky;
   background-color: var(--primary-white);
-  padding: 2rem 5rem;
+  padding: 0rem 3rem;
 }
 
 .header-footer-container {

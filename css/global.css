@@ -65,5 +65,16 @@ a:hover {
 
 .footer {
   position: fixed;
+  display: flex;
   background-color: var(--primary-off-white);
+}
+
+.footer-contact-information p:first-of-type {
+  color: var(--highlight-orange);
+  text-transform: uppercase;
+  flex-direction: column;
+}
+
+.footer-contact-information-business-info {
+  display: flex;
 }

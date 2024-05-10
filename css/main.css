@@ -1,41 +1,46 @@
 @import'./global.css';
 
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
 .hero {
     display: flex;
     width: 100%;
     justify-content: space-between;
     background-color: var(--primary-off-white);
-    padding: 2rem 6rem;
+    padding: 2rem 5rem;
 }
+
 
 .left {
     display: flex;
     flex-direction: column;
-    width: 59%;
-    /* padding: 5rem; */
+    width: 50%;
     color: var(--accent-blue);
     text-align: left;
-    /* justify-content: center; */
 }
+
 
 .right {
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 40%;
+    /* align-items: center; */
+    width: 50%;
 }
 
 .right img {
     width: 100%;
     max-width: 80%;
-
+    margin-right: 0;
+    padding-right: 0;
 }
-
-div.right {
-    margin: 0;
-}
-
-
 
 .hero-button {
     background-color: var(--highlight-orange);

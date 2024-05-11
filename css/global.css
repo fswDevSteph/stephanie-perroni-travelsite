@@ -29,6 +29,23 @@ a:hover {
   opacity: 0.7;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1.25rem;
+  padding: 0 1.25rem 0 0;
+  margin: 0;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  flex: 1;
+}
+
 .nav__list .active-link {
   border-bottom: 4px solid var(--highlight-orange);
 }
@@ -43,6 +60,7 @@ a:hover {
 
 .header-footer-container {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
   padding: 0 5rem;
@@ -69,12 +87,32 @@ a:hover {
   background-color: var(--primary-off-white);
 }
 
+.footer p {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .footer-contact-information p:first-of-type {
   color: var(--highlight-orange);
   text-transform: uppercase;
-  flex-direction: column;
+}
+
+.footer-contact-information-business-info p {
+  margin-bottom: 1.25em;
 }
 
 .footer-contact-information-business-info {
   display: flex;
+}
+
+.footer-contact-information-business-info .footer-contact-information-business-info:last-of-type p:nth-of-type(2)::first-letter {
+  text-transform: uppercase;
+}
+
+.time {
+  text-transform: uppercase;
+}
+
+.social-icon {
+  height: 2.125rem;
 }

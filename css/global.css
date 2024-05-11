@@ -97,22 +97,11 @@ a:hover {
   text-transform: uppercase;
 }
 
-.footer-contact-information-business-info p {
-  margin-bottom: 1.25em;
-}
-
-.footer-contact-information-business-info {
-  display: flex;
-}
-
-.footer-contact-information-business-info .footer-contact-information-business-info:last-of-type p:nth-of-type(2)::first-letter {
-  text-transform: uppercase;
-}
-
 .time {
   text-transform: uppercase;
 }
 
 .social-icon {
-  height: 2.125rem;
+  height: 1.125rem;
+
 }

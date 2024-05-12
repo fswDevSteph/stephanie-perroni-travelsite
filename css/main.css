@@ -67,11 +67,8 @@ section.recommendations {
     /* height: 50rem; */
 }
 
-.recommendations__title {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0;
+.recommendations__title h2 {
+    display: block;
 }
 
 .recommendations-cards__container {
@@ -96,13 +93,14 @@ section.recommendations {
 
 .card img {
     width: 100%;
-    height: 23.5rem;
+    height: 22rem;
     object-fit: cover;
     filter: blur(.6px);
-    margin-bottom: -3px;
+    margin-bottom: -1.5px;
 }
 
 .destination-name {
+    font-size: larger;
     position: absolute;
     bottom: 0;
     right: 0;

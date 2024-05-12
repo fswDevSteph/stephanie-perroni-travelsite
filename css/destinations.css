@@ -2,7 +2,7 @@
 
 section.destination__hawaii {
     width: 100%;
-    padding: 2.5rem 5rem;
+    padding: 6rem 2rem;
     background-image: url('../assets/images/hawaii.jpg');
     background-size: cover;
     background-position: center;
@@ -10,7 +10,7 @@ section.destination__hawaii {
 
 section.iceland {
     width: 100%;
-    padding: 2.5rem 5rem;
+    padding: 4rem 2rem;
     background-image: url('../assets/images/iceland.jpg');
     background-size: cover;
     background-position: center;
@@ -18,7 +18,7 @@ section.iceland {
 
 section.greece {
     width: 100%;
-    padding: 2.5rem 5rem;
+    padding: 4rem 2rem;
     background-image: url('../assets/images/greece.jpg');
     background-size: cover;
     background-position: center;
@@ -32,13 +32,15 @@ section.greece {
     justify-content: left;
     align-items: center;
     margin-top: .5rem;
+    padding-left: 3.25rem;
+    ;
 }
 
 .card-container {
     width: 100%;
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: 2rem;
     justify-content: center;
     align-items: center;
 }

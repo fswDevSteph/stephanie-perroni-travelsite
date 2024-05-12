@@ -1,0 +1,66 @@
+@import'./global.css';
+
+section.destination__hawaii {
+    width: 100%;
+    padding: 2.5rem 5rem;
+    background-image: url('../assets/images/hawaii.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+section.iceland {
+    width: 100%;
+    padding: 2.5rem 5rem;
+    background-image: url('../assets/images/iceland.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+section.greece {
+    width: 100%;
+    padding: 2.5rem 5rem;
+    background-image: url('../assets/images/greece.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.card-title {
+    color: var(--primary-white);
+    font-size: 3.288rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-top: .5rem;
+}
+
+.card-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 15.625rem;
+    height: 22rem;
+    background-color: var(--primary-white);
+    text-align: center;
+    border-radius: 5px;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1.75rem;
+}
+
+.card h3 {
+    color: #000;
+    border-bottom: 2px solid black;
+    /* border-bottom: 1px solid var(--accent-blue); */
+}
+
+.card p {
+    padding: .75rem;
+    color: #000;
+    background-color: var(--primary-off-white);
+}

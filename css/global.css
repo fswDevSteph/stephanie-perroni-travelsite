@@ -25,7 +25,6 @@ h2,
 h3 {
   color: var(--accent-blue);
   text-transform: capitalize;
-
 }
 
 h1 {
@@ -36,15 +35,8 @@ h2 {
   font-size: 2.288rem;
 }
 
-/* 
-
-h2::first-letter,
-h3::first-letter {
-  text-transform: uppercase;
-} */
-
-p {
-  font-size: 1.135rem;
+p:not(.no-capitalize) {
+  text-transform: capitalize;
 }
 
 a {

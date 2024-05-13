@@ -15,8 +15,6 @@ h3 {
     margin-block-end: 0.67em;
     margin-inline-start: 0;
     margin-inline-end: 0;
-    /* font-weight:; */
-
 }
 
 .hero {
@@ -64,7 +62,6 @@ section.recommendations {
     width: 100%;
     padding: 3rem 5rem;
     background-color: var(--primary-white);
-    /* height: 50rem; */
 }
 
 .recommendations__title h2 {
@@ -78,7 +75,6 @@ section.recommendations {
     gap: 2rem;
     width: 100%;
     height: 30rem;
-
     padding-bottom: 2rem;
 }
 

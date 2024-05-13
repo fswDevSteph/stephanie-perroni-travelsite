@@ -41,7 +41,6 @@ h2 {
 
 h3 {
   font-size: 1.874;
-  /* font-size: 2.044rem; */
 }
 
 p {
@@ -79,7 +78,8 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   padding: 0 2rem;
-  color: var(--accent-blue)
+  color: var(--accent-blue);
+
 }
 
 .nav__list {
@@ -93,13 +93,21 @@ a:hover {
 }
 
 .nav__list--item a {
-  padding-bottom: .75rem
+  padding-bottom: .75rem;
 }
 
 .footer {
-  position: fixed;
+  width: 100%;
   display: flex;
   background-color: var(--primary-off-white);
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .footer p {
